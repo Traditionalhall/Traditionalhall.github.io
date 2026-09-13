@@ -7,17 +7,38 @@
     <title>Traditional Hall | Wear Your Own Story</title>
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+        
+        }.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #fff1e6, #f8d8d0);
+}
 
-        body {
-            background: #fffaf5;
-            color: #333;
-        }
+.hero-content {
+    max-width: 750px;
+}
+
+.hero-small {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
 
         header {
             background: #5a2630;
@@ -123,11 +144,18 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <div class="hero" id="home">
-        <h2>Welcome to Traditional Hall</h2>
-        <p>Discover traditional fashion with a modern touch.</p>
-        <a href="#collection" class="button">Explore Collection</a>
-    </div>
+    <section class="hero" id="home">
+        <div class="hero-content">
+        <p class="hero-small">WELCOME TO TADITIONAL HALL</p>
+         <h2>Wear Your Own Story</h2>
+         <P class="hero-text">
+             Discover timeless Indian fashion,
+             beautifully designed for your special moments.
+         </P>
+            <a href="#collection"
+    class="button">Explore Collection</a>
+        </div>
+    </section>
 
     <section id="about">
         <h2>About Us</h2>
